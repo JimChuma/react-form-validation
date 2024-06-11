@@ -34,7 +34,7 @@ export default function Input({ placeholder, type, field, formFields, setFormFid
         autoCapitalize="off"
       />
       <div className={"required-icon" + (isEmpty || (formSubmit ? !formFields[field] : null)? " show-required" : "")}>
-        <img src="/require-icon.svg" alt="" />
+        <img src="/react-form-validation/require-icon.svg" alt="" />
       </div>
       {type === "password" && info ? (
         <div className="hide-password">

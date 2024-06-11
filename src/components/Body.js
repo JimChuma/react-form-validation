@@ -30,7 +30,7 @@ export default function Body() {
           <div className="form-div">
             <div className="form-body">
               <h2 className="sign-up-heading">Sign Up</h2>
-              <form action="/" onSubmit={handleSubmit}>
+              <form action="/react-form-validation" onSubmit={handleSubmit}>
                 <Input
                   placeholder="Email"
                   type="email"
